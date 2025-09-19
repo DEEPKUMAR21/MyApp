@@ -1,0 +1,11 @@
+<dx-button text="Click"  type="success" ></dx-button>
+<h1>Angular Router App</h1>
+<nav>
+  <ul>
+   
+  <dx-button><a routerLink="/client" routerLinkActive="active" ariaCurrentWhenActive="page" type="success" stylingMode="outlined" >Client</a></dx-button><br><br>
+    <dx-button><a routerLink="/login" routerLinkActive="active" ariaCurrentWhenActive="page" type="success" stylingMode="outlined">Login</a></dx-button>
+  </ul>
+</nav>
+<!-- The routed views render in the <router-outlet>-->
+<router-outlet />
